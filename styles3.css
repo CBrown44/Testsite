@@ -25,6 +25,7 @@ nav a{
 html{
     background: linear-gradient(rgb(11, 81, 146), black) no-repeat;
     height: 100%;
+    font-family: MuseoModerno, sans-serif;
 }
 
 
@@ -44,6 +45,11 @@ p{
     font-size: 30px;
     text-align: center;
 }
+@font-face {
+    font-family: MuseoModerno;
+    src: url(MuseoModerno-VariableFont_wght.ttf);
+}
+
 
 /*Mail to and Tel design*/
 a.mail{
@@ -68,10 +74,7 @@ footer{
     width:100%; 
 }
 
-/*Image Size down*/
-img{
-    width: 50%;
-}
+
 
 /*Grids*/
 .row::after{
@@ -79,11 +82,11 @@ img{
     content: "";
     display: table;
 }
-.col-1-4{
-    width: 25%;
-    float: left;
-}
 .col-1-2{
     width: 50%;
+    float: left;
+}
+.col-1-4{
+    width: 25%;
     float: left;
 }
