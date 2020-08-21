@@ -25,6 +25,7 @@ nav a{
 html{
     background: linear-gradient(rgb(11, 81, 146), black) no-repeat;
     height: 100%;
+    font-family: MuseoModerno, sans-serif;
 }
 
 
@@ -43,6 +44,10 @@ h1.title{
 p{
     font-size: 30px;
     text-align: center;
+}
+@font-face {
+    font-family: MuseoModerno;
+    src: url(MuseoModerno-VariableFont_wght.ttf);
 }
 
 /*Mail to and Tel design*/
@@ -71,6 +76,13 @@ footer{
 /*Image Size down*/
 img{
     width: 50%;
+}
+.logo img{
+    float: left;
+    height: 150px;
+    width: auto;
+    padding: 0;
+    margin: 0;
 }
 
 /*Grids*/
