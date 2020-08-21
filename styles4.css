@@ -77,6 +77,13 @@ footer{
 img{
     width: 50%;
 }
+.logo img{
+    float: left;
+    height: 150px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
 
 /*Grids*/
 .row::after{
