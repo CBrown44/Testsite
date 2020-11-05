@@ -63,15 +63,15 @@ footer{
 
 /*Scaling Photos*/
 .face img{
-    height: auto;
-    width: 550px;
+    height: 500px;
+    width: 470px;
 }
 .game1 img{
-    height: 300px;
+    height: 200px;
     width: auto;
 }
 .game2 img{
-    height: 300px;
+    height: 200px;
     width: auto;
 }
 .logo img{

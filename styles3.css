@@ -170,3 +170,23 @@ li.js::after{
         width: 60%;
     }
 }
+
+li.python::after{
+    animation-name: python;
+}
+
+@keyframes python{
+    to{
+        width: 10%;
+    }
+}
+
+li.php::after{
+    animation-name: php;
+}
+
+@keyframes php{
+    to{
+        width: 10%;
+    }
+}
