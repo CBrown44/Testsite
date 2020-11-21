@@ -1,21 +1,22 @@
 /*Nav Styles*/
 nav{
-    background-color: black;
     text-align: center;
     height: 48px;
 }
 nav ul{
-    padding: 0px;
-    margin: 0px;
+    padding: 5px;
+    margin: 5px;
 }
 nav li{
-    border: 5px solid rgb(11, 81, 146);
+    background-color: #5e5656;
+    border: 5px solid #76b4bd;
     list-style: none;
     padding: 10px;
+    border-radius: 1000px;
 }
 nav a{
     text-decoration: none;
-    color: rgb(153, 189, 223);
+    color:#bdeaee;
 }
 
 
@@ -23,7 +24,7 @@ nav a{
 
 /*Background Color Main*/
 html{
-    background: linear-gradient(rgb(11, 81, 146), black) no-repeat;
+    background: linear-gradient(#58668b, #5e5656) ;
     height: 100%;
     font-family: MuseoModerno, sans-serif;
 }
@@ -32,7 +33,7 @@ html{
 
 /*Text Decoration and Color*/
 body{
-    color: rgb(153, 189, 223);
+    color: #bdeaee;
 }
 body h1{
     font-size: 50px;
@@ -91,8 +92,8 @@ img{
     content: "";
     display: table;
 }
-.col-1-4{
-    width: 25%;
+.col-1-3{
+    width: 33%;
     float: left;
 }
 .col-1-2{
